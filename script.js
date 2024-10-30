@@ -17,6 +17,7 @@ async function fetchData() {
       .value.toLowerCase();
 
     // get the html elements
+    const pokemonId = document.getElementById("pokemon-id");
     const pokemonName = document.getElementById("pokemon-name");
     const pokemonTypes = document.getElementById("pokemom-type");
     const pokemonAbilities = document.getElementById("pokemon-abilities");
@@ -41,6 +42,7 @@ async function fetchData() {
     const pokemonSprite = data.sprites.front_default;
 
     // display the data
+    pokemonId.innerHTML = `ID: ${data.id}`;
     pokemonName.innerHTML = `Name: ${
       pokemonDataName.charAt(0).toUpperCase() + pokemonDataName.slice(1)
     }`;
