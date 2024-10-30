@@ -9,10 +9,22 @@
     <title>Pokedex Data</title>
   </head>
   <body>
-    <input type="text" id="pokemon-name" placeholder="Pokemon Name" />
+    <input type="text" id="pokemon-search" placeholder="Pokemon Name" />
     <button onclick="fetchData()">Find Pokemon</button><br />
 
-    <img src="" alt="Pokemon Image" id="pokemon-sprite" style="display: none" />
+    <div class="pokemon-details">
+      <div>
+        <p id="pokemon-name"></p>
+        <div id="pokemom-type"></div>
+        <div id="pokemon-abilities"></div>
+      </div>
+      <img
+        src=""
+        alt="Pokemon Image"
+        id="pokemon-sprite"
+        style="display: none; width: 140px"
+      />
+    </div>
 
     <script src="script.js"></script>
   </body>

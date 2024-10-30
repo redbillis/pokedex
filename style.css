@@ -2,3 +2,19 @@ html,
 body {
   background: #1f0336;
 }
+
+p,
+ul {
+  color: white;
+}
+
+div {
+  color: white;
+}
+
+.pokemon-details {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 50px;
+}
