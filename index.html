@@ -13,18 +13,22 @@
     <button onclick="fetchData()">Find Pokemon</button><br />
 
     <div class="pokemon-details">
-      <div>
-        <p id="pokemon-id"></p>
-        <p id="pokemon-name"></p>
-        <div id="pokemom-type"></div>
-        <div id="pokemon-abilities"></div>
-      </div>
       <img
         src=""
         alt="Pokemon Image"
         id="pokemon-sprite"
         style="display: none; width: 170px"
       />
+      <div>
+        <div class="id-name">
+          <p id="pokemon-id"></p>
+          <p id="pokemon-name"></p>
+        </div>
+        <div class="type-ability">
+          <div id="pokemom-type"></div>
+          <div id="pokemon-abilities"></div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>

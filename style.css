@@ -18,3 +18,17 @@ div {
   align-items: start;
   gap: 50px;
 }
+
+.id-name {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+
+.type-ability {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 50px;
+}
